@@ -13,7 +13,7 @@ lang = loc[0]
 arabic =["جار الترقية","وجد الملف ","تم حذف الملف","تم حفظ المرايا بنجاح ","للاسف فشل حفظ المرايا وهناك خطأ ما. "," لا حاجة للترقية"]
 english=["Upgrading Start","found","file deleted","Mirrors saved successfully","Something wrong , mirrors not saved","No UPGREADE NEEDED"]
 def upgrade_system():
-    upg = os.system("sudo pacman -Syu")
+    upg = os.system("sudo pacman -Syy")
     return upg
 if (lang[0:2]) == 'ar':
     list1=arabic
