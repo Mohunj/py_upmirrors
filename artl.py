@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 #
+# Wrutten by: Mohammed Alhoussainy
+# Licence :GPL3.0
 class artl:
     def __init__(self,text):
         self.text=text
